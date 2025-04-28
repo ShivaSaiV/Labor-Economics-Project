@@ -1,0 +1,11 @@
+prefix=/Users/shivasaivummaji/Desktop/CS:DS/Labor-Economics-Project/.conda
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/shivasaivummaji/Desktop/CS:DS/Labor-Economics-Project/.conda/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

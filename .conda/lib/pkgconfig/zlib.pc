@@ -1,0 +1,13 @@
+prefix=/Users/shivasaivummaji/Desktop/CS:DS/Labor-Economics-Project/.conda
+exec_prefix=/Users/shivasaivummaji/Desktop/CS:DS/Labor-Economics-Project/.conda
+libdir=/Users/shivasaivummaji/Desktop/CS:DS/Labor-Economics-Project/.conda/lib
+sharedlibdir=/Users/shivasaivummaji/Desktop/CS:DS/Labor-Economics-Project/.conda/lib
+includedir=/Users/shivasaivummaji/Desktop/CS:DS/Labor-Economics-Project/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
